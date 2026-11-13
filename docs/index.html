@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f7f5">
+<meta name="description" content="Python 기반 데이터 분석을 6개월간 학습하며 질문을 데이터로 확인하는 분석가를 꿈꾸는 포트폴리오입니다.">
+<title>데이터를 읽고, 의미를 찾습니다 — Portfolio</title>
+<style>
+:root{--ink:#20211f;--muted:#70736f;--paper:#f7f7f5;--line:#e7e7e2;--green:#356b50;--orange:#d87543;--blue:#397b91;--pink:#c46b79;--yellow:#e7bd55}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:76px}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif;line-height:1.65;letter-spacing:-.025em}a{color:inherit;text-decoration:none}.progress{position:fixed;z-index:9;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--green),var(--yellow),var(--orange))}.nav{position:sticky;top:0;z-index:8;display:flex;justify-content:space-between;align-items:center;padding:15px max(6vw,20px);background:#f7f7f5df;backdrop-filter:blur(18px);border-bottom:1px solid #e7e7e280}.brand{font-weight:750;letter-spacing:-.04em}.navlinks{display:flex;gap:22px;font-size:13px;color:var(--muted)}.wrap{width:min(100% - 44px,1000px);margin:auto}.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;padding:90px 0 100px}.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:750}.hero h1{font-size:clamp(48px,9vw,104px);line-height:1.08;letter-spacing:-.075em;margin:22px 0;max-width:850px}.hero h1 em{font-style:normal;color:var(--green)}.lead{font-size:clamp(17px,2.2vw,21px);color:#5e625d;max-width:600px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:30px}.chip{padding:7px 13px;border:1px solid var(--line);border-radius:99px;font-size:13px;color:#555}.hint{margin-top:65px;color:#969993;font-size:12px}.section{padding:100px 0;border-top:1px solid var(--line)}.kicker{font-size:12px;color:var(--orange);font-weight:750;letter-spacing:.13em}.section h2{font-size:clamp(34px,6vw,58px);line-height:1.17;letter-spacing:-.065em;margin:14px 0 20px}.intro{max-width:650px;color:var(--muted);font-size:17px}.statement{margin:55px 0 10px;padding:30px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:clamp(24px,4vw,39px);font-weight:650;letter-spacing:-.05em}.statement span{color:var(--orange)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:38px}.tile{padding:25px;border-radius:22px;background:#fff;border:1px solid #eeeee9;min-height:180px}.tile small{color:var(--green);font-weight:750;letter-spacing:.08em}.tile h3{font-size:21px;margin:13px 0 7px}.tile p{color:var(--muted);font-size:14px;margin:0}.tools{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.tool{padding:11px 15px;background:#fff;border:1px solid var(--line);border-radius:13px;font-size:14px}.tool b{color:var(--blue);margin-right:5px}.steps{margin-top:38px;border-top:1px solid var(--line)}.step{display:grid;grid-template-columns:90px 1fr;gap:20px;padding:23px 0;border-bottom:1px solid var(--line)}.step strong{color:var(--orange);font-size:13px}.step h3{margin:0 0 5px;font-size:18px}.step p{margin:0;color:var(--muted);font-size:14px}.note{margin-top:40px;padding:24px;border-radius:18px;background:#edf2ed;color:#355b43}.contact{background:#202b25;color:#f7f7f5;border-radius:28px;padding:clamp(28px,6vw,65px);margin:55px 0}.contact .kicker{color:#e7bd55}.contact h2{font-size:clamp(36px,7vw,68px);margin:12px 0}.contact p{color:#c5cec6;max-width:520px}.mail{display:inline-block;margin-top:18px;padding:12px 18px;border-radius:99px;background:#f7f7f5;color:#202b25;font-weight:700;font-size:14px}.footer{padding:25px 0 45px;color:#969993;font-size:12px;display:flex;justify-content:space-between;gap:15px}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}@media(max-width:620px){.nav{padding:13px 20px}.navlinks{gap:12px;font-size:11px}.wrap{width:min(100% - 36px,1000px)}.hero{min-height:82vh;padding:75px 0}.section{padding:72px 0}.grid{grid-template-columns:1fr}.tile{min-height:unset}.step{grid-template-columns:64px 1fr;gap:12px}.hint{margin-top:45px}.footer{flex-direction:column}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<nav class="nav"><a class="brand" href="#">JIN'S DATA NOTE</a><div class="navlinks"><a href="#about">소개</a><a href="#study">배움</a><a href="#approach">방식</a><a href="#contact">연락</a></div></nav>
+<main>
+<header class="hero wrap">
+<div class="eyebrow">CURIOUS MIND · DATA ANALYSIS</div>
+<h1>숫자 너머의<br><em>이야기를</em> 찾습니다.</h1>
+<p class="lead">안녕하세요. Python을 기반으로 데이터 분석을 약 6개월간 배워 온 학생입니다. 작은 질문에서 출발해 데이터를 살펴보고, 근거 있는 해석으로 연결하는 과정을 좋아합니다.</p>
+<div class="chips"><span class="chip">Python 기반 분석 학습</span><span class="chip">탐색적 데이터 분석</span><span class="chip">꾸준히 성장하는 분석가 지망생</span></div>
+<div class="hint">SCROLL TO EXPLORE ↓</div>
+</header>
+<section class="section" id="about"><div class="wrap reveal">
+<div class="kicker">01 — ABOUT ME</div><h2>데이터를 배우는 이유는<br>더 좋은 질문을 위해서입니다.</h2>
+<p class="intro">데이터 분석은 도구를 다루는 일에서 끝나지 않는다고 생각합니다. 무엇이 궁금한지 정의하고, 데이터를 정돈하고, 결과를 의심하며, 다른 사람도 이해할 수 있게 설명하는 일. 그 전체 과정을 차근차근 익히고 있습니다.</p>
+<div class="statement">“정답을 서두르기보다<br><span>근거를 차곡차곡</span> 쌓겠습니다.”</div>
+</div></section>
+<section class="section" id="study"><div class="wrap reveal">
+<div class="kicker">02 — WHAT I'M LEARNING</div><h2>지난 6개월,<br>기초부터 하나씩.</h2>
+<p class="intro">학습 과정에서 익힌 개념과 도구를 실제 데이터에 적용하며 이해를 넓히고 있습니다.</p>
+<div class="grid">
+<article class="tile"><small>01 / PREPARE</small><h3>데이터 전처리</h3><p>결측치와 중복값을 확인하고, 분석에 적합한 형태로 데이터를 정리하는 기본기를 익혔습니다.</p></article>
+<article class="tile"><small>02 / EXPLORE</small><h3>탐색적 데이터 분석</h3><p>기초 통계와 시각화를 활용해 데이터의 분포와 패턴을 살펴보는 연습을 하고 있습니다.</p></article>
+<article class="tile"><small>03 / VISUALIZE</small><h3>시각화와 전달</h3><p>그래프가 무엇을 말하는지 고민하고, 핵심 내용을 읽기 쉽게 표현하는 방법을 배우고 있습니다.</p></article>
+<article class="tile"><small>04 / THINK</small><h3>분석적 사고</h3><p>분석 목적을 먼저 세우고, 결과가 질문에 답하는지 검토하는 습관을 기르고 있습니다.</p></article>
+</div>
+<div class="tools"><span class="tool"><b>Py</b>Python</span><span class="tool"><b>pd</b>Pandas</span><span class="tool"><b>np</b>NumPy</span><span class="tool"><b>plt</b>Matplotlib</span><span class="tool"><b>sns</b>Seaborn</span><span class="tool"><b>◎</b>Jupyter Notebook</span></div>
+</div></section>
+<section class="section" id="approach"><div class="wrap reveal">
+<div class="kicker">03 — HOW I WORK</div><h2>좋은 분석을 위한<br>나만의 기본 원칙.</h2>
+<div class="steps">
+<div class="step"><strong>STEP 01</strong><div><h3>질문을 구체적으로</h3><p>무엇을 알고 싶은지 먼저 정리하고 분석의 범위를 정합니다.</p></div></div>
+<div class="step"><strong>STEP 02</strong><div><h3>데이터를 꼼꼼하게</h3><p>데이터의 구조와 품질을 확인하고, 처리 과정과 기준을 기록합니다.</p></div></div>
+<div class="step"><strong>STEP 03</strong><div><h3>결과를 비판적으로</h3><p>눈에 띄는 패턴을 곧바로 결론으로 삼지 않고 다른 가능성도 살펴봅니다.</p></div></div>
+<div class="step"><strong>STEP 04</strong><div><h3>쉽고 명확하게 공유</h3><p>분석을 모르는 사람도 핵심을 이해할 수 있도록 간결하게 전달합니다.</p></div></div>
+</div>
+<div class="note">아직 배워 가는 단계이기에 모르는 것을 인정하고, 직접 실습하고, 기록하며 성장하겠습니다.</div>
+</div></section>
+<section class="wrap reveal" id="contact"><div class="contact">
+<div class="kicker">04 — NEXT CHAPTER</div><h2>배움은 계속되고,<br>가능성은 열려 있습니다.</h2>
+<p>작은 분석 경험을 쌓아 더 나은 질문과 설득력 있는 인사이트를 만드는 사람으로 성장하고 싶습니다. 함께 배우고 이야기 나눌 기회를 기다립니다.</p>
+<a class="mail" href="https://github.com/sktkdwls94-tech">GitHub에서 더 알아보기 ↗</a>
+</div></section>
+</main>
+<footer class="footer wrap"><span>© 2026 JIN'S DATA NOTE</span><span>LEARN · EXPLORE · EXPLAIN</span></footer>
+<script>
+const bar=document.getElementById('progress');addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-innerHeight;bar.style.width=(max>0?scrollY/max*100:0)+'%'},{passive:true});
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('show');observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body></html>
